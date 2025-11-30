@@ -22,7 +22,7 @@ try {
     $pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME, DB_USER, DB_PASS);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    die("Koneksi database gagal: " . $e->getMessage());
+    die("Koneksi gagal: " . $e->getMessage());
 }
 
 // Define base URL
@@ -30,7 +30,7 @@ const BASE_URL = 'http://localhost:8000/tugaspsb/'; // sesuaikan dengan nama fol
 
 //upload directory
 const UPLOAD_DIR = __DIR__ . '/uploads/';
-const UPLOAD_URL = BASE_URL . '/uploads/';
+const UPLOAD_URL = 'uploads/';
 
 // Helper URL function
 function url($path) {

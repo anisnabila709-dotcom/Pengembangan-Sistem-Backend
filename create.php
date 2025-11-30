@@ -137,8 +137,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label>Status:</label><br>
         <select name="status" style="width:100%;" required>
             <option value="">-- Pilih Status --</option>
-            <option value="active">Active</option>
-            <option value="inactive">Inactive</option>
+            <option value="active">Ada</option>
+            <option value="inactive">Tidak Ada</option>
         </select>
         <br><br>
 

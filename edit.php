@@ -86,8 +86,8 @@ if (!$produk) {
         <div class="row">
           <label>Status:</label>
           <select name="status" required>
-            <option value="active" <?= $produk['status']=='active'?'selected':'' ?>>Active</option>
-            <option value="inactive" <?= $produk['status']=='inactive'?'selected':'' ?>>Inactive</option>
+            <option value="active" <?= $produk['status']=='active'?'selected':'' ?>>Ada</option>
+            <option value="inactive" <?= $produk['status']=='inactive'?'selected':'' ?>>Tidak Ada</option>
           </select>
         </div>
 
