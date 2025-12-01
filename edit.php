@@ -1,7 +1,6 @@
 <?php
 
-require_once 
-'config.php';
+require_once 'config.php';
 
 // Ambil ID produk
 $id = $_GET['id'] ?? null;
