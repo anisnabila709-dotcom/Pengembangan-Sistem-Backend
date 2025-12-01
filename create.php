@@ -99,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php if (!empty($errors)): ?>
         <div style="padding:10px; background:#ffe5e5; border:1px solid red; width:400px;">
             <b>Terjadi kesalahan:</b>
-            <ul>
+            <ul>:
                 <?php foreach ($errors as $err): ?>
                     <li><?= htmlspecialchars($err) ?></li>
                 <?php endforeach; ?>

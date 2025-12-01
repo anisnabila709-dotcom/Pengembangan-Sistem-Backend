@@ -121,7 +121,7 @@ function showNav() {
             </td>
 
             <td>
-                <?= ($p['stok'] > 0) ? "Ada" : "Stok Tidak Ada" ?>
+                <?= ($p['status'] === 'active') ? "Ada" : " Tidak Ada" ?>
             </td>
 
             <td>
