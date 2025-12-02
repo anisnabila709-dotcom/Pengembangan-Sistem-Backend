@@ -1,0 +1,72 @@
+body { 
+    font-family: Arial; 
+    padding: 20px; 
+    background: #FFF6FA; 
+}
+
+h1 { 
+    color: #D15F9B; 
+}
+
+/* Link navigation */
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #D15F9B;
+}
+
+/* Tombol tambah */
+.add-btn {
+    background: #FF8EC7;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Tabel */
+table {
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 15px;
+    border: 1px solid #F5B5D7;
+}
+
+th {
+    background: #FFD9EC;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #F5B5D7;
+}
+
+/* Gambar */
+.product-img {
+    width: 120px; 
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Tombol Edit */
+.edit-btn {
+    background: #7BB0FF; 
+    color: white;
+    padding: 4px 8px; 
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+/* Tombol Delete */
+.del-btn {
+    background: #FF6E7F; 
+    color: white;
+    padding: 4px 8px; 
+    border-radius: 4px;
+    text-decoration: none;
+}

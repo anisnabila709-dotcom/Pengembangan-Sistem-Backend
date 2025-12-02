@@ -20,7 +20,7 @@ if (!$produk) {
     exit;
 }
 
-// Hapus gambar jika ada & file-nya memang ada
+// Hapus gambar & file jika ada
 if (!empty($produk['gambar_path'])) {
     $file = UPLOAD_DIR . $produk['gambar_path'];
     if (file_exists($file)) {

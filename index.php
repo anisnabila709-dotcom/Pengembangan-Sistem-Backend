@@ -113,6 +113,7 @@ function showNav() {
             <td>Rp <?= number_format($p['harga'], 0, ',', '.') ?></td>
 
             <td>
+
                 <?php if ($p['gambar_path']): ?>
                     <img src="<?= UPLOAD_URL . $p['gambar_path'] ?>" class="product-img">
                 <?php else: ?>
@@ -135,6 +136,3 @@ function showNav() {
 </table>
 </body>
 </html>
- 
-
-

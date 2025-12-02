@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!is_numeric($stok) || $stok < 0) $errors[] = "Stok harus berupa angka dan tidak boleh negatif.";
     if ($status === '') $errors[] = "Status wajib dipilih.";
 
-    // Validasi file upload
+    // Validasi file yg diupload
     $gambar_name = "";
     
     if (!empty($_FILES['gambar']['name'])) {
@@ -92,7 +92,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <h1>Tambah Produk Baru</h1>
 
     <!-- FIX: TIDAK ADA url() -->
-    <a href="index.php">← Kembali ke Daftar Produk</a>
+    <a href="index.php" 
+   style="
+       display:inline-block;
+       padding:6px 12px;
+       background:#e5e5e5;
+       color:#333;
+       text-decoration:none;
+       border-radius:4px;
+       font-size:14px;
+   ">
+   ← Kembali
+</a>
+
     <br><br>
 
     <!-- tampilkan error -->
@@ -121,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <option value="Anting">Anting</option>
             <option value="Gelang">Gelang</option>
             <option value="Pita">Pita</option>
-            <option value="Aksesoris Rambut">Aksesoris Rambut</option>
+            <option value="Aksesoris lainnya">Aksesoris lainnya</option>
         </select>
         <br><br>
 
