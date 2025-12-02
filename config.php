@@ -13,9 +13,9 @@ spl_autoload_register(function ($class_name) {
 
 // database config
 const DB_HOST = 'localhost';
-const DB_USER = 'root';       // sesuaikan dengan user MySQL Anda
-const DB_PASS = '';   // sesuaikan dengan password MySQL Anda
-const DB_NAME = 'produk';   // sesuaikan dengan nama database yang sudah dibuat
+const DB_USER = 'root';       
+const DB_PASS = '';   
+const DB_NAME = 'produk';   
 
 // PDO
 try {
@@ -26,7 +26,7 @@ try {
 }
 
 // Define base URL
-const BASE_URL = 'http://localhost:8000/tugaspsb/'; // sesuaikan dengan nama folder
+const BASE_URL = 'http://localhost:8000/tugaspsb/'; 
 
 //upload directory
 const UPLOAD_DIR = __DIR__ . '/uploads/';
