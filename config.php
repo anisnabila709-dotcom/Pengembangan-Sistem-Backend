@@ -28,7 +28,7 @@ try {
 // Define base URL
 const BASE_URL = 'http://localhost:8000/tugaspsb/'; 
 
-//upload directory
+//upload 
 const UPLOAD_DIR = __DIR__ . '/uploads/';
 const UPLOAD_URL = 'uploads/';
 
